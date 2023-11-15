@@ -1,0 +1,56 @@
+:root{
+    --cor-principal: rgb(225, 231, 236);
+}
+.menu-vertical{
+    max-width: 150px;
+    width: 100%;
+}
+.menu-vertical ul{
+    list-style-type: none;
+    padding: 0;
+}
+.menu-vertical ul li{
+    background-color: rgb(38, 126, 202);
+    border-bottom: 1px solid var(--cor-principal);
+}
+.menu-vertical ul li:hover{
+    background-color: rgb(78, 75, 75);
+}
+
+
+.menu-vertical ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: background .3s;
+}
+
+
+footer{
+  
+    display: flex;
+    
+     list-style-type: none;
+}
+footer .container-4{
+    flex-direction: column;
+}
+footer .container-4 ul{
+    width: 30%;
+    
+}
+footer .container-4 h4{
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+    footer .container-4 li{
+     margin: 20px ;
+    }
+    footer .redes-sociais img{
+        margin-left: 10px;
+    }
+    .blog-footer{
+        margin-left: 70%;
+    }

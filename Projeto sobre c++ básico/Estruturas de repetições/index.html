@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Estruturas de Repetições C++</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+ 
+  </head>
+   <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CodeLivre</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <!-- <a class="nav-link active" aria-current="page" href="index.html">Home</a> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://youtube.com.br">CodeLivre - YouTube</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Linguagens
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Phyton</a></li>
+                  <li><a class="dropdown-item" href="#">C++</a></li>
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                  <li><hr class="dropdown-divider"></li> <!-- Não adicionar nada -->
+                  <li><a class="dropdown-item" href="#">Html</a></li>
+                  <li><a class="dropdown-item" href="#">CSS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">Sobre Nós</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Busca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <link rel="stylesheet" href="style.css">
+  </header>   
+    <nav>
+      <div class="menu-vertical">
+       <ul>
+        <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Introdu%C3%A7%C3%A3o%20C++/C++/index.html" class="href">Introdução</a></li>
+          <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Sintaxe/Sintaxe/index.html" class="href">Sintaxe</a></li>
+         <li> <a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Vari%C3%A1veis/Vari%C3%A1veis/index.html" class="href">Variáveis</a></li>
+         <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Operadores/index.html" class="href">Operadores</a></li> 
+          <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Condi%C3%A7%C3%B5es/index.html" class="href">Condições</a></li>
+          <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Estruturas%20de%20repeti%C3%A7%C3%B5es/index.html" class="href">Estruturas de repetições</a></li>
+          <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/List,%20Stack,%20Queue/index.html" class="href">List, stack e queue</a></li>
+          <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Sort/index.html" class="href">Sort</a></li>
+          
+       </ul>
+      </div>
+  
+    </nav>  
+    <style>
+      .container2{
+        position: absolute;
+          left: 40%;
+            top: 150px;
+      }
+
+    </style>
+   <center><img src="./pngwing.com (2).png" class="container2" alt=""
+      height="200" width="300"></center>
+    
+ <!-- Cabeçalho do Blog -->
+
+ <style>
+.container{
+  top: 300%;
+}
+
+ </style>
+ <br>
+ <main class="container">
+      <center><h1 class="display-4 fst-italic">For/While</h1>
+     <font style="vertical-align: inherit;"> <p class="lead my-3">A estrutura de repetição consiste apenas em laços repetitivos. Laços de reprodução permitem que um conjunto de instruções seja repetido até que se cumpra a condição desejada. As linguagens de programação modernas usam laços For e While. </p></font></center>
+    
+    </div>
+  </div>
+<br>
+<br>
+  <!-- 1º Artigo -->
+  <h3><b> Laço For:</b></h3>
+  <p>O laço de repetição For é considerado uma estrutura de repetição completa .  Isso deve ser o fato de que podemos declarar uma variável, estabelecer uma condição e aumentar ou diminuir os valores de uma variável em nosso cabeçalho.</p>
+
+  <h5>Exemplo:</h5>
+  <p><b>for([variável]; [condição]; [incremento])</b></p>
+  <p>Cada parte da estrutura <b>for</b> é finalizada com um ponto-e-vírgula, salvo a última parte.</p>
+
+  <h5>Variável</h5>
+  <p>
+    A seção que chamamos de "variável" é onde podemos declarar e inicializar uma variável para que ela funcione como um contador durante os ciclos. Como será o número que usaremos para acessar, por exemplo, estruturas do tipo Array, a variável que declaramos e vamos incrementar ou decrementar pode ser a parte mais importante do processo.</p>
+
+    <h5>Condição</h5>
+    <p>A condição para que o laço de reprodução seja interrompido é especificada na segunda parte, que chamamos de condição. Observação: se a condição não for atendida , nossa aplicação entrará em um loop infinito. Isso significa que o usuário não poderá mais usá-lo, a menos que feche o programa e abra novamente.</p>
+    <h5>Incremento</h5>
+    <p>A última seção, que chamamos de incremento, é onde alteramos o valor da variável apresentada na primeira seção. Observe que podemos aumentar ou diminuir valores; isso depende da lógica que estamos usando.</p>
+    <img src="./for.PNG" alt="for">
+<br><br>
+    <h3><b>Laço While:</b></h3>
+    <p>laço que pode ter ou não uma condição de término definida no início.</p>
+
+    <p> Ele precisa testar a condição e executar o bloco abaixo se for verdadeiro; caso seja falso, ele vai para a próxima instrução fora do laço.</p>
+    <h5>Exemplo:</h5>
+    <p>
+       <b> While (Condição)
+{
+	<br>Comandos;<br>
+}
+</b> </p>
+
+<p><b>Condição:</b> Pode ser qualquer expressão valida ou até quando a verdadeira.</p>
+<p><b>Comando:</b> pode ser um bloco de comando vazio ou de repetição definido por um termino.</p>
+<h5>Exemplo:</h5>
+
+<img src="./While.PNG" alt="While">
+<br><hr>
+<!-- Rodapé -->
+
+<div class="col-md-4">
+  <div class="position-sticky" style="top: 2rem;">
+    <div class="p-4 mb-3 bg-light rounded">
+      <h4 class="fst-italic">Sobre Nós</h4>
+   <p class="mb-0">Este blog é o seu companheiro essencial na jornada de aprendizado da programação. Nossa missão é ajudar novos programadores a desbravar o vasto universo da programação, oferecendo tutoriais, dicas e recursos práticos para tornar a programação acessível e empolgante. Junte-se a nós enquanto exploramos o mundo da tecnologia e transformamos aspirantes a programadores em mestres da arte de criar código.</p>
+    </div>
+  <footer>
+    <div class="container-4">
+      <h4 class="fst-italic">Arquivos</h4>
+      <ol class="list-unstyled mb-0">
+        <li><a href="https://github.com/Yann-Xavier/Apostilas.git">Repositório de Apostilas</a></li>
+        <li><a href="#">Códigos Fonte</a></li>
+      </ol>
+    </div>
+  
+    
+    <div class="redes-sociais">
+      <h4 class="fst-italic">Redes Sociais</h4>
+      <ol class="list-unstyled">
+        <li><a href="https://github.com/Alexandr7a">GitHub <img src="./github.png" alt="github" width="20px" height="20px"></a></li>
+       
+        <li><a href="https://twitter.com/Samuel_aasilva">Twitter<img src="./twitter.png" alt="twitter" width="20px" height="20px"></a></li>
+        
+        <li><a href="https://www.instagram.com/samukaalx/?theme=dark">Instagram <img src="instagram.png" alt="instagram" width="20px" height="20px"></a></li>
+       
+        <li><a href="https://www.facebook.com/">Facebook<img src="facebook.png" alt="facebook" width="20px" height="20px"></a></li>
+  
+        </ol>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div>
+    <footer class="blog-footer">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-4">
+        
+      </div>
+      <div class="col-md-10 t-mdtex-end">
+      
+        <p>
+          <a href="#">Política de Privacidade</a>|<a href="#">Termos de Uso</a> |<a href="#">De Volta ao Topo</a>
+          
+        </p>
+        
+        <p>&copy; 2023 CodeLivre</p>
+      </div>
+      </div>
+      
+      </footer> 
+  </div>
+  </main>
+  </footer>
+  
+      
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+  </html>

@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>List, Stack e Queue C++</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+ 
+  </head>
+   <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">CodeLivre</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <!-- <a class="nav-link active" aria-current="page" href="index.html">Home</a> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://youtube.com.br">CodeLivre - YouTube</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Linguagens
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Phyton</a></li>
+                  <li><a class="dropdown-item" href="#">C++</a></li>
+                  <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                  <li><hr class="dropdown-divider"></li> <!-- Não adicionar nada -->
+                  <li><a class="dropdown-item" href="#">Html</a></li>
+                  <li><a class="dropdown-item" href="#">CSS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">Sobre Nós</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Busca</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <link rel="stylesheet" href="style.css">
+  </header>   
+    <nav>
+      <div class="menu-vertical">
+       <ul>
+        <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Introdu%C3%A7%C3%A3o%20C++/C++/index.html" class="href">Introdução</a></li>
+          <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Sintaxe/Sintaxe/index.html" class="href">Sintaxe</a></li>
+         <li> <a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Vari%C3%A1veis/Vari%C3%A1veis/index.html" class="href">Variáveis</a></li>
+         <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Operadores/index.html" class="href">Operadores</a></li> 
+          <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Condi%C3%A7%C3%B5es/index.html" class="href">Condições</a></li>
+          <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Estruturas%20de%20repeti%C3%A7%C3%B5es/index.html" class="href">Estruturas de repetições</a></li>
+          <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/List,%20Stack,%20Queue/index.html" class="href">List, stack e queue</a></li>
+          <li><a href="file:///C:/Users/samue/OneDrive/%C3%81rea%20de%20Trabalho/Sort/index.html" class="href">Sort</a></li>
+          
+       </ul>
+      </div>
+  
+    </nav>  
+    <style>
+      .container2{
+        position: absolute;
+          left: 40%;
+            top: 150px;
+      }
+
+    </style>
+   <center><img src="./pngwing.com (2).png" class="container2" alt=""
+      height="200" width="300"></center>
+    
+ <!-- Cabeçalho do Blog -->
+
+ <style>
+.container{
+  top: 300%;
+}
+
+ </style>
+ <br>
+ <main class="container">
+      <center><h1 class="display-4 fst-italic">List, Stack e Queue C++</h1>
+     <font style="vertical-align: inherit;"> <p class="lead my-3">     Listas,pilhas e filas são estruturas de dados que nos permitem organizar e interagir com nossos dados de várias maneiras.  O C++ tem bibliotecas que nos permitem implementar esses tipos de estruturas , o que torna nossa tarefa mais fácil de fazer manualmente.
+      </p></font></center>
+    
+    </div>
+  </div>
+<br>
+<br>
+  <!-- 1º Artigo -->
+  <h3><b>List:</b></h3>
+      <p>A lista é uma estrutura mais abrangente porque podemos usá-la de várias maneiras, como em estilos de pilha e fila. Podemos adicionar um elemento ao inicio e ao fim de uma lista, bem como decidir se retirar o elemento do inicio ou do fim da lista! No entanto, podemos adicionar ou remover qualquer elemento de uma lista. Sua biblioteca está localizada no <b>&lt;list&gt;</b>.</p>
+        <h5><b>Operações básicas:</b></h5>
+        <ul>
+          <li><b>front()</b> – Retorna o valor do primeiro elemento da lista.</li>
+          <li><b>back()</b> – Retorna o valor do último elemento da lista.</li>
+          <li><b>push_front()</b> – Adiciona um novo elemento 'n  ' no início da lista.</li>
+          <li><b>push_back()</b> – Adiciona um novo elemento 'n' no final da lista.</li>
+          <li><b>pop_front()</b> – Remove o primeiro elemento da lista e reduz o tamanho da lista em 1.</li>
+          <li><b>pop_back()</b> – Remove o último elemento da lista e reduz o tamanho da lista em 1.</li>
+          <li><b>insert()</b> – Insere novos elementos na lista antes do elemento em uma posição especificada.</li>
+          <li><b>size()</b> – Retorna o número de elementos da lista.</li>
+          <li><b>Begin()</b> – a função Begin() retorna um iterador apontando para o primeiro elemento da lista.</li>
+          <li><b>end()</b> – a função end() retorna um iterador apontando para o último elemento teórico que segue o último elemento.</li>
+        </ul>
+        <h5><b>Exemplo:</b></h5>
+        <img src="./List.PNG" alt="List">
+<br><br>
+        <H5>O que é o iterator?</H5>
+      <p>É o mecanismo usado para "andar", elemento por elemento, por uma coleção de dados. É uma forma abstrata e genérica de tratar o avanço entre os elementos dessa coleção. Esse avanço pode se dar de várias formas, inclusive ao contrário.</p>
+
+       <p> O funcionamento exato depende de cada tipo de dado, o importante é que se um tipo possui um iterador em conformidade com a linguagem toda operação que iteração poderá ser feita com aquele objeto. Não importa para ele a complexidade da operação, nem como ela deverá ser feita. É uma forma independente da implementação de acessar os dados da coleção.</p>
+
+       <h3><b>Pilhas:</b></h3>
+        <p>Em C++, a biblioteca <b>&lt;stack&gt;</b> é usada para usar a pilha. Após declararmos nossa "pilha", que especifica o tipo de dados que colocaremos nela, temos um for e uma função chamada <b>push()</b>. A função que nos permite empilhar nossos objetos em nossa pilha é a função push . Para aqueles que não sabem, uma pilha funciona de acordo com o padrão <b>FILO</b>, ou First in Last out, o que significa que o primeiro elemento entra e o último sai. Isso funciona como se os elementos estivessem empilhados um em cima do outro. Já a função <b>pop()</b> remove o elemento no topo da lista porém não retorna o seu valor.</p>
+        <img src="./Pilhas.PNG" alt="Pilhas">
+<br><br>
+        <h3><b>Filas:</b></h3>
+        <p>As funções da fila são semelhantes à pilha. Não há muitas diferenças significativas, mas o include passa de "stack" para "queue" e temos <b>front()</b>, em vez de <b>top()</b> na fila. A principal diferença é que ao usar <b>top()</b> na pilha, veríamos o ultimo elemento que foi adicionado, enquanto ao usar <b>front()</b> na fila, vemos o primeiro elemento e ao usar usar <b>pop()</b> o próximo elemento será o inteiro de valor 1.
+          Sua biblioteca está localizada no <b>&lt;queue&gt;</b>.
+        </p>
+        <img src="./Filas.PNG" alt="Filas">
+<br><br><hr>
+        <!-- Rodapé -->
+<div class="col-md-4">
+  <div class="position-sticky" style="top: 2rem;">
+    <div class="p-4 mb-3 bg-light rounded">
+      <h4 class="fst-italic">Sobre Nós</h4>
+   <p class="mb-0">Este blog é o seu companheiro essencial na jornada de aprendizado da programação. Nossa missão é ajudar novos programadores a desbravar o vasto universo da programação, oferecendo tutoriais, dicas e recursos práticos para tornar a programação acessível e empolgante. Junte-se a nós enquanto exploramos o mundo da tecnologia e transformamos aspirantes a programadores em mestres da arte de criar código.</p>
+    </div>
+  <footer>
+    <div class="container-4">
+      <h4 class="fst-italic">Arquivos</h4>
+      <ol class="list-unstyled mb-0">
+        <li><a href="https://github.com/Yann-Xavier/Apostilas.git">Repositório de Apostilas</a></li>
+        <li><a href="#">Códigos Fonte</a></li>
+      </ol>
+    </div>
+  
+    
+    <div class="redes-sociais">
+      <h4 class="fst-italic">Redes Sociais</h4>
+      <ol class="list-unstyled">
+        <li><a href="https://github.com/Alexandr7a">GitHub <img src="./github.png" alt="github" width="20px" height="20px"></a></li>
+       
+        <li><a href="https://twitter.com/Samuel_aasilva">Twitter<img src="./twitter.png" alt="twitter" width="20px" height="20px"></a></li>
+        
+        <li><a href="https://www.instagram.com/samukaalx/?theme=dark">Instagram <img src="instagram.png" alt="instagram" width="20px" height="20px"></a></li>
+       
+        <li><a href="https://www.facebook.com/">Facebook<img src="facebook.png" alt="facebook" width="20px" height="20px"></a></li>
+  
+        </ol>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div>
+    <footer class="blog-footer">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-0">
+        
+      </div>
+      <div class="col-md-10 t-mdtex-end">
+      
+        <p>
+          <a href="#">Política de Privacidade</a>|<a href="#">Termos de Uso</a> |<a href="#">De Volta ao Topo</a>
+          
+        </p>
+        
+        <p>&copy; 2023 CodeLivre</p>
+      </div>
+      </div>
+      
+      </footer> 
+  </div>
+  </main>
+  </footer>
+  
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+  </html>
